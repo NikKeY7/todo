@@ -1,0 +1,62 @@
+* {
+                padding: 0;
+                margin: 0;
+                background: none;
+                border: none;
+                outline: none;
+                list-style-type: none;
+            }
+            body { background-color: #ccc;}
+                div.wrapper {
+                    position: absolute;
+                    transform: translateY(-50%);
+                    top: 50%;
+                    left: 10%;
+                    width: 400px;
+                    height: 600px;
+                    border-radius: 20px;
+                    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+                    background-color: #eee;
+                }
+                div.wrapper div.header {
+                    
+                    display: flex;
+                    padding: 15px;
+                    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+                    background-color: #fefefe;
+                    border-radius: 20px 20px 0 0;
+                    justify-content: center;
+                }
+                div.wrapper div.header input {
+                    width: 355px;
+                }
+                div.wrapper div.header span.addbtn {
+                    width: 15px;
+                    background: url('https://www.flaticon.com/svg/static/icons/svg/875/875068.svg') center center no-repeat;
+                    background-size: 100%;
+                    transform: scale(1.2);
+                }
+                ul#list {padding-top:15px;}
+                ul#list li {
+                    position: relative;
+                    padding: 15px;
+                    background: #fff;
+                    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+                }
+                ul#list li span.close {
+                    position: absolute;
+                    right: 15px; top: 15px;
+                }
+                span.close {
+                    display: block;
+                    width: 17px; height: 17px;
+                    background: url('https://www.flaticon.com/svg/static/icons/svg/1/1193.svg') center center no-repeat;
+                }
+                p.success {
+                    position: absolute;
+                    right: 45px; top: 15px;
+                    display: block;
+                    width: 17px; height: 17px;
+                    background: url('https://www.flaticon.com/svg/static/icons/svg/2107/2107593.svg') center center no-repeat;
+                    background-size: 100%;
+                }
